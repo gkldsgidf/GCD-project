@@ -1,0 +1,61 @@
+Human Activity Recognition Using Smartphones Dataset Code book
+
+ACTIVITY LABELS
+1: WALKING 
+2: WALKING_UPSTAIRS 
+3: WALKING_DOWNSTAIRS 
+4: SITTING 
+5: STANDING 
+6: LAYING
+
+FEATURES
+- Prefix:
+t: Time domain signals
+f: Frequency domain signals obtained by using the Fast Fourier Transform
+
+- Signals
+BodyAcc: Body acceleration signal
+BodyGyro: Body gyroscope signal
+GravityAcc: Gravity acceleration signal
+
+- Jerk signal
+Jerk: Jerk signal obtained by time derivation of acceleration and angular velocity
+
+- Magnitude:
+Mag: Magnitude of the three-dimensional signals calculated using the Euclidean norm
+
+- Directions:
+X: 3-axial signals in the X direction
+Y: 3-axial signals in the Y direction
+Z: 3-axial signals in the Z direction
+
+- Operation:
+mean(): Mean value 
+std(): Standard deviation 
+mad(): Median absolute deviation 
+max(): Largest value in array 
+min(): Smallest value in array 
+sma(): Signal magnitude area 
+energy(): Energy measure. Sum of the squares divided by the number of values. 
+iqr(): Interquartile range 
+entropy(): Signal entropy 
+arCoeff(): Autorregresion coefficients with Burg order equal to 4 
+correlation(): correlation coefficient between two signals 
+maxInds(): index of the frequency component with largest magnitude 
+meanFreq(): Weighted average of the frequency components to obtain a mean frequency 
+skewness(): skewness of the frequency domain signal 
+kurtosis(): kurtosis of the frequency domain signal 
+bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+angle(): Angle between two vectors
+
+UNITS
+Acceleration features: g (gravitational acceleration)
+Gyroscope features: radians/second
+
+DESCRIPTIVE VARIABLES NAMES USED IN THE SCRIPT
+activity_ID: Number assigned to every activity considered in the study according to the activity_labels.txt file
+activity_Type: Type of activity considered in the study according to the activity_labels.txt file
+feature_ID: Number assigned to every feature considered in the study according to the features.txt file
+feature_Type: Type of feature considered in the study according to the features.txt file
+subject_ID: Number assigned to every participant in the study according to the subject_test.txt file
+activity_ID: Type of activity considered in the study according to the y_train.txt file
